@@ -1,0 +1,772 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.site{
+    display: flex;
+}
+
+.main{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+
+/* .m-text{
+    display: flex;
+} */
+
+.comp{
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.com-name{
+    position: fixed;
+    width: 300px;
+    height: 10000px;
+    background-color: red;
+}
+
+.com-text{
+    width: 25px;
+}
+
+.company{
+    color: white;
+    padding-left: 25px;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: Tw Cen MT ;
+}
+
+.com-buttons{
+    margin-top: 60px;
+    margin-left: 15px;
+    display: block;
+}
+
+
+.home{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 191px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.home:hover{
+    background-color: white;
+    color: black;
+}
+
+.showcase{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 160px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.showcase:hover{
+    background-color: white;
+    color: black;
+}
+
+.service{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 174px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.service:hover{
+    background-color: white;
+    color: black;
+}
+
+.design{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 160px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.design:hover{
+    background-color: white;
+    color: black;
+}
+
+.package{
+    background-color: red;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 165px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.package:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact{
+    background-color: red;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 180px;
+    border: none;
+    font-size: 20px;
+    font-family: Calibri;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.right{
+    margin-left: 330px;
+}
+
+.top-right{
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+h2{
+    margin-left: 30px;
+    margin-top: -25px;
+    font-size: 45px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+    color: rgb(250, 61, 61);
+}
+
+.line{
+    width: 60px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.photos{
+    margin-left: 30px;
+    width: 900px;
+    gap: 17px;
+    display: flex;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.top{
+    display: flex;
+}
+
+.bottoms{
+    display: flex;
+}
+
+.top img{
+    width: 480px;
+    height: 400px;
+}
+
+.bottom-r img{
+    width: 480px;
+    height: 300px;
+}
+
+.bottom-l img{
+    width: 480px;
+    height: 300px;
+}
+
+.serv{
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+    color: rgb(250, 61, 61);
+}
+
+.ser{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.we{
+    padding-bottom: 20px;
+}
+
+
+.des{
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+    color: rgb(250, 61, 61);
+}
+
+.de{
+    width: 950px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.best{
+    padding-bottom: 20px;
+}
+
+h4{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.designers{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.john{
+    width: 300px;
+    height: 430px;
+    margin: 10px;
+    background-color: rgba( 0, 0, 0, 0.12);
+}
+
+.j-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.j-text{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.johndoe{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ceo{
+    color: rgb(73, 73, 73);
+    font-size: 17px;
+    font-family: Candara Light;
+    padding-bottom: 20px;
+}
+
+.phasellus{
+    font-size: 25px;
+    font-family: Monotype Corsiva;
+}
+
+.packages{
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+    color: rgb(250, 61, 61);
+}
+
+.prc{
+    width: 950px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.boxes{
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.box-1{
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 450px;
+    height: 590px;
+    text-align: center;
+    
+}
+
+.basic{
+    background-color: rgb(126, 126, 126);
+    padding-top: 35px;
+    height: 95px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fp{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    font-size: 20px;
+    padding: 16px;
+}
+
+.flp{
+    padding-top: 13px;
+}
+
+
+.dollar{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 25px;
+}
+
+.earning{
+    font-size: 30px;
+    font-family: Lucida Sans;
+    padding-bottom: 20px;
+}
+
+.room{
+    font-size: 20px;
+    margin-top: -15px;
+    color: grey;
+}
+
+.s-button button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border: none;
+    margin: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.s-button button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.box-2{
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 450px;
+    height: 590px;
+    text-align: center;
+    
+}
+
+.basic-2{
+    background-color: rgb(255, 45, 45);
+    padding-top: 35px;
+    height: 95px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fp{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.dollar{
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.earning{
+    font-size: 30px;
+    font-family: Lucida Sans;
+    padding-bottom: -20px;
+}
+
+.room{
+    font-size: 20px;
+    margin-top: -15px;
+    color: grey;
+}
+
+.second-button button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 45, 45);
+    color: white;
+    border: none;
+    margin: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.second-button button:hover{
+    background-color: black;
+    color: white;
+}
+
+.cont{
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+    color: rgb(250, 61, 61);
+}
+
+.do{
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: -30px; 
+}
+
+form{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+}
+
+input{
+    width: 950px;
+    height: 40px;
+    border: 1px solid rgb(185, 185, 185);
+    margin-left: 30px;
+}
+
+input, textarea{
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.f-btn{
+    margin-top: 10px;
+    margin-left: 30px;
+    /* padding: 10px; */
+    width: 950px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgb(241, 37, 37);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-btn:hover{
+    background-color: rgb(185, 185, 185);
+    color: black;
+}
+
+footer{
+    background-color: rgb(221, 221, 221);
+    height: 120px;
+}
+
+.pow{
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
+
+@media (max-width: 990px){
+    .main{
+        display: block;
+        padding-top: 45px;
+    }
+    .com-name{
+        display: none;
+    }
+    .right{
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .top-right{
+        font-size: 160px;
+    }
+    h2{
+        font-size: 120px;
+    }
+    .line{
+        width: 120px;
+        height: 20px;
+    }
+    .photos{
+        margin-bottom: 30px;
+        display: block;
+    }
+    .top{
+        display: block;
+    }
+    .bottoms{
+        display: block;
+    }
+    .top img{
+        width: 100%;
+        height: 100%;
+    }
+    .bottom-l img{
+        width: 100%;
+        height: 100%;
+    }
+    .bottom-r img{
+        width: 100%;
+        height: 100%;
+    }
+    .serv{
+        font-size: 120px;
+    }
+    .ser{
+        width: 90%;
+    }
+    .we{
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+    .some{
+        font-size: 35px;
+    }
+    .des{
+        font-size: 120px;
+    }
+    .de{
+        width: 90%;
+    }
+    .best{
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+    .are{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 35px;
+    }
+    .designers{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .john{
+        width: 900px;
+        margin: 0 auto;
+        height: 1150px;
+        margin-bottom: 50px;
+    }
+    .j-img img{
+        width: 100%;
+        height: 600px;
+    }
+    .johndoe{
+        font-size: 80px;
+    }
+    .ceo{
+        font-size: 51px;
+        font-weight: lighter;
+        color: rgba(0, 0, 0, 0.12);
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .phasellus{
+        font-size: 70px;
+    }
+    .packages{
+        font-size: 120px;
+    }
+    .prices{
+        font-size: 35px;
+    }
+    .boxes{
+        margin: 0 auto;
+        display: block;
+    }
+    .box-1{
+        margin: 0 auto;
+        width: 900px;
+        height: 1180px;
+    }
+    .basic{
+        font-size: 50px;
+        height: 150px;
+        padding-top: 50px;
+    }
+    .fp{
+    font-size: 40px;
+    padding: 32px;
+    }
+    .dollar{
+    padding: 50px;
+    }
+    .earning{
+    font-size: 60px;
+    padding-bottom: 30px;
+    }
+    .room{
+    font-size: 40px;
+    margin-top: -30px;
+    color: grey;
+    }
+    .s-button button{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border: none;
+    margin: 40px;
+    font-size: 40px;
+    cursor: pointer;
+}
+    .box-2{
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 900px;
+        height: 1180px;
+    }
+    .basic-2{
+        font-size: 50px;
+        height: 150px;
+        padding-top: 50px;
+    }
+    .second-button button{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    margin: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    }
+    .cont{
+        font-size: 120px;
+    }
+    .do{
+        font-size: 35px;
+    }
+    label{
+    display: block;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, sans-serif;
+}
+
+    input{
+    width: 950px;
+    height: 80px;
+    }
+
+    input, textarea{
+    font-size: 32px;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+    .f-btn{
+    margin-top: 10px;
+    margin-left: 30px;
+    /* padding: 10px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    }
+
+}
